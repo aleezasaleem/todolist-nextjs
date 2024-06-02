@@ -90,9 +90,9 @@ const Todo = () => {
   };
 
   return (
-    <div className="h-screen flex justify-center items-center flex-col space-y-10 relative">
+    <div className="h-screen flex justify-center items-center flex-col space-y-10 relative   ">
       <img src={"/bg.jpg"} alt="bgimage" className="h-screen w-full object-cover absolute inset-0"/>
-      <div className="border rounded-lg backdrop-blur w-[400px] px-4 py-4 max-h-full overflow-auto mt-20">
+      <div className="border rounded-lg backdrop-blur w-[350px] sm:w-[400px]  px-4 py-4 max-h-full overflow-auto mt-20">
         <div className="p-4 flex flex-col space-y-2 text-black">
           <textarea
             ref={inputRef}
